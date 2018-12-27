@@ -1,7 +1,7 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
-# $origin: otrs - 114796cddcef9760b445844a00011c0326b715c4 - scripts/test/Selenium/Output/Preferences/Agent/CustomService.t
+# $origin: ligero - 114796cddcef9760b445844a00011c0326b715c4 - scripts/test/Selenium/Output/Preferences/Agent/CustomService.t
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you

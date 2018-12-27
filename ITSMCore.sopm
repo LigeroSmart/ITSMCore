@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<otrs_package version="1.0">
+<ligero_package version="1.0">
     <Name>ITSMCore</Name>
-<!-- nofilter(TidyAll::Plugin::OTRS::SOPM::DocumentationPresent) -->
+<!-- nofilter(TidyAll::Plugin::LIGERO::SOPM::DocumentationPresent) -->
     <Version>0.0.0</Version>
     <Framework Minimum="6.0.15">6.0.x</Framework>
     <PackageRequired Version="6.0.15">GeneralCatalog</PackageRequired>
-    <Vendor>OTRS AG</Vendor>
-    <URL>https://otrs.com/</URL>
+    <Vendor>LIGERO AG</Vendor>
+    <URL>https://ligero.com/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
-    <Description Lang="en">The OTRS::ITSM Core package.</Description>
-    <Description Lang="de">Das OTRS::ITSM Core Paket.</Description>
-    <Description Lang="hu">Az OTRS::ITSM alapcsomag.</Description>
+    <Description Lang="en">The LIGERO::ITSM Core package.</Description>
+    <Description Lang="de">Das LIGERO::ITSM Core Paket.</Description>
+    <Description Lang="hu">Az LIGERO::ITSM alapcsomag.</Description>
     <Filelist>
         <File Permission="660" Location="doc/itsm-core-database.dia" />
         <File Permission="660" Location="doc/itsm-core-database.png" />
@@ -440,10 +440,10 @@
         <strong>WELCOME</strong>
         <br/>
         <br/>
-        You are about to install the OTRS package ITSMCore.<br/>
+        You are about to install the LIGERO package ITSMCore.<br/>
         <br/>
         <br/>
-        <strong>REQUIRED OTRS PACKAGES</strong>
+        <strong>REQUIRED LIGERO PACKAGES</strong>
         <ul>
         <li>GeneralCatalog 6.0.15</li>
         </ul>
@@ -459,10 +459,10 @@
         <strong>WILLKOMMEN</strong>
         <br/>
         <br/>
-        Sie sind im Begriff das OTRS-Paket ITSMCore zu installieren.<br/>
+        Sie sind im Begriff das LIGERO-Paket ITSMCore zu installieren.<br/>
         <br/>
         <br/>
-        <strong>BENÖTIGTE OTRS-PAKETE</strong>
+        <strong>BENÖTIGTE LIGERO-PAKETE</strong>
         <ul>
         <li>GeneralCatalog 6.0.15</li>
         </ul>
@@ -478,7 +478,7 @@
         <strong>BIENVENIDO</strong>
         <br/>
         <br/>
-        Usted está apunto de instalar el modulo ITSMCore de OTRS.<br/>
+        Usted está apunto de instalar el modulo ITSMCore de LIGERO.<br/>
         <br/>
         <br/>
         <strong>PAQUETES REQUERIDOS</strong>
@@ -497,10 +497,10 @@
         <strong>ÜDVÖZÖLJÜK</strong>
         <br/>
         <br/>
-        Ön az ITSMCore OTRS csomag telepítésére készül.<br/>
+        Ön az ITSMCore LIGERO csomag telepítésére készül.<br/>
         <br/>
         <br/>
-        <strong>SZÜKSÉGES OTRS CSOMAGOK</strong>
+        <strong>SZÜKSÉGES LIGERO CSOMAGOK</strong>
         <ul>
         <li>GeneralCatalog 6.0.15</li>
         </ul>
@@ -580,10 +580,10 @@
         <strong>WELCOME</strong>
         <br/>
         <br/>
-        You are about to upgrade the OTRS package ITSMCore.<br/>
+        You are about to upgrade the LIGERO package ITSMCore.<br/>
         <br/>
         <br/>
-        <strong>REQUIRED OTRS PACKAGES</strong>
+        <strong>REQUIRED LIGERO PACKAGES</strong>
         <ul>
         <li>GeneralCatalog 6.0.15</li>
         </ul>
@@ -599,10 +599,10 @@
         <strong>WILLKOMMEN</strong>
         <br/>
         <br/>
-        Sie sind im Begriff das OTRS-Paket ITSMCore zu aktualisieren.<br/>
+        Sie sind im Begriff das LIGERO-Paket ITSMCore zu aktualisieren.<br/>
         <br/>
         <br/>
-        <strong>BENÖTIGTE OTRS-PAKETE</strong>
+        <strong>BENÖTIGTE LIGERO-PAKETE</strong>
         <ul>
         <li>GeneralCatalog 6.0.15</li>
         </ul>
@@ -618,7 +618,7 @@
         <strong>BIENVENIDO</strong>
         <br/>
         <br/>
-        Usted está apunto de instalar el modulo ITSMCore de OTRS.<br/>
+        Usted está apunto de instalar el modulo ITSMCore de LIGERO.<br/>
         <br/>
         <br/>
         <strong>PAQUETES REQUERIDOS</strong>
@@ -637,10 +637,10 @@
         <strong>ÜDVÖZÖLJÜK</strong>
         <br/>
         <br/>
-        Ön az ITSMCore OTRS csomag frissítésére készül.<br/>
+        Ön az ITSMCore LIGERO csomag frissítésére készül.<br/>
         <br/>
         <br/>
-        <strong>SZÜKSÉGES OTRS CSOMAGOK</strong>
+        <strong>SZÜKSÉGES LIGERO CSOMAGOK</strong>
         <ul>
         <li>GeneralCatalog 6.0.15</li>
         </ul>
@@ -722,4 +722,4 @@
         <br/>
 
     ]]></IntroUninstall>
-</otrs_package>
+</ligero_package>

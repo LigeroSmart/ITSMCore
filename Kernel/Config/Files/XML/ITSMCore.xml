@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<otrs_config version="2.0" init="Config">
+<ligero_config version="2.0" init="Config">
     <Setting Name="Frontend::Module###AdminITSMCIPAllocate" Required="0" Valid="1">
         <Description Translatable="1">Frontend module registration for the AdminITSMCIPAllocate configuration in the admin area.</Description>
         <Navigation>Frontend::Admin::ModuleRegistration</Navigation>
@@ -71,7 +71,7 @@
         </Value>
     </Setting>
     <Setting Name="ITSM::Core::IncidentLinkTypeDirection" Required="1" Valid="1">
-        <Description Translatable="1">Set the type and direction of links to be used to calculate the incident state. The key is the name of the link type (as defined in LinkObject::Type), and the value is the direction of the IncidentLinkType that should be followed to calculate the incident state. For example if the IncidentLinkType is set to 'DependsOn', and the Direction is 'Source', only 'Depends on' links will be followed (and not the opposite link 'Required for') to calculate the incident state. You can add more link types ad directions as you like, e.g. 'Includes' with the direction 'Target'. All link types defined in the sysconfig options LinkObject::Type are possible and the direction can be 'Source', 'Target', or 'Both'. IMPORTANT: AFTER YOU MAKE CHANGES TO THIS SYSCONFIG OPTION YOU NEED TO RUN THE CONSOLE COMMAND bin/otrs.Console.pl Admin::ITSM::IncidentState::Recalculate SO THAT ALL INCIDENT STATES WILL BE RECALCULATED BASED ON THE NEW SETTINGS!</Description>
+        <Description Translatable="1">Set the type and direction of links to be used to calculate the incident state. The key is the name of the link type (as defined in LinkObject::Type), and the value is the direction of the IncidentLinkType that should be followed to calculate the incident state. For example if the IncidentLinkType is set to 'DependsOn', and the Direction is 'Source', only 'Depends on' links will be followed (and not the opposite link 'Required for') to calculate the incident state. You can add more link types ad directions as you like, e.g. 'Includes' with the direction 'Target'. All link types defined in the sysconfig options LinkObject::Type are possible and the direction can be 'Source', 'Target', or 'Both'. IMPORTANT: AFTER YOU MAKE CHANGES TO THIS SYSCONFIG OPTION YOU NEED TO RUN THE CONSOLE COMMAND bin/ligero.Console.pl Admin::ITSM::IncidentState::Recalculate SO THAT ALL INCIDENT STATES WILL BE RECALCULATED BASED ON THE NEW SETTINGS!</Description>
         <Navigation>Core::ITSMCore</Navigation>
         <Value>
             <Hash>
@@ -434,4 +434,4 @@
             </Array>
         </Value>
     </Setting>
-</otrs_config>
+</ligero_config>

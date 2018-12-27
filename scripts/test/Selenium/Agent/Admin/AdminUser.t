@@ -1,7 +1,7 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
-# $origin: otrs - 114796cddcef9760b445844a00011c0326b715c4 - scripts/test/Selenium/Agent/Admin/AdminUser.t
+# $origin: ligero - 114796cddcef9760b445844a00011c0326b715c4 - scripts/test/Selenium/Agent/Admin/AdminUser.t
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -204,7 +204,7 @@ $Selenium->RunTest(
             "There is a class 'Invalid' for test Agent",
         );
 
-        # Testing bug#13463 (https://bugs.otrs.org/show_bug.cgi?id=13463),
+        # Testing bug#13463 (https://bugs.ligero.org/show_bug.cgi?id=13463),
         #   updating Agent data, removes it's 'My Queue' and 'My Services' preferences.
         my $QueueName = 'TestQueue' . $RandomID;
         my $QueueID   = $Kernel::OM->Get('Kernel::System::Queue')->QueueAdd(

@@ -1,7 +1,7 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
-# $origin: otrs - 8ce19805570da1d4442f32f839a33057131e6335 - scripts/test/GenericInterface/Operation/Ticket/TicketSearch.t
+# $origin: ligero - 8ce19805570da1d4442f32f839a33057131e6335 - scripts/test/GenericInterface/Operation/Ticket/TicketSearch.t
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -821,7 +821,7 @@ my $WebserviceConfig = {
             Type   => 'HTTP::SOAP',
             Config => {
                 MaxLength => 10000000,
-                NameSpace => 'http://otrs.org/SoapTestInterface/',
+                NameSpace => 'http://ligero.org/SoapTestInterface/',
                 Endpoint  => $RemoteSystem,
             },
         },
@@ -838,7 +838,7 @@ my $WebserviceConfig = {
         Transport => {
             Type   => 'HTTP::SOAP',
             Config => {
-                NameSpace => 'http://otrs.org/SoapTestInterface/',
+                NameSpace => 'http://ligero.org/SoapTestInterface/',
                 Encoding  => 'UTF-8',
                 Endpoint  => $RemoteSystem,
                 Timeout   => 120,

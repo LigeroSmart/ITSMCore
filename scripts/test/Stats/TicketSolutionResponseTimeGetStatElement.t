@@ -1,7 +1,7 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
-# $origin: otrs - f69ee36c77a8f0e4c60d35cec96a87f162b313e9 - scripts/test/Stats/TicketSolutionResponseTimeGetStatElement.t
+# $origin: ligero - f69ee36c77a8f0e4c60d35cec96a87f162b313e9 - scripts/test/Stats/TicketSolutionResponseTimeGetStatElement.t
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you

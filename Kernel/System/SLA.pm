@@ -1,7 +1,7 @@
 # --
-# Copyright (C) 2001-2018 OTRS AG, https://otrs.com/
+# Copyright (C) 2001-2018 LIGERO AG, https://ligero.com/
 # --
-# $origin: otrs - 87629f00b8a02498bf28c802419865b3286ead2e - Kernel/System/SLA.pm
+# $origin: ligero - 87629f00b8a02498bf28c802419865b3286ead2e - Kernel/System/SLA.pm
 # --
 # This software comes with ABSOLUTELY NO WARRANTY. For details, see
 # the enclosed file COPYING for license information (GPL). If you
@@ -814,7 +814,7 @@ sub SLAPreferencesGet {
 
 =head1 TERMS AND CONDITIONS
 
-This software is part of the OTRS project (L<https://otrs.org/>).
+This software is part of the LIGERO project (L<https://ligero.org/>).
 
 This software comes with ABSOLUTELY NO WARRANTY. For details, see
 the enclosed file COPYING for license information (GPL). If you
